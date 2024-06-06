@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "metric_id": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "profile_id": {
+      "type": "string"
+    },
+    "datetime": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "integer"
+    },
+    "event_properties": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+}
