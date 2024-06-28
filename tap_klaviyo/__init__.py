@@ -24,6 +24,7 @@ EVENT_MAPPINGS = {
     "Opened Email": "open",
     "Bounced Email": "bounce",
     "Unsubscribed": "unsubscribe",
+    "Clicked email to unsubscribe": "unsubscribe",
     "Marked Email as Spam": "mark_as_spam",
     "Unsubscribed from List": "unsub_list",
     "Subscribed to List": "subscribe_list",
