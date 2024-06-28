@@ -239,7 +239,7 @@ def get_available_metrics(api_key):
 
 
 def discover(api_key):
-    metric_streams = get_available_metrics(api_key)
+#    metric_streams = get_available_metrics(api_key)
     return {"streams": [a.to_catalog_dict()
                         for a in FULL_STREAMS]}
 
