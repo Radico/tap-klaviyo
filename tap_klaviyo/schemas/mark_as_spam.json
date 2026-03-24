@@ -24,7 +24,17 @@
     },
     "event_properties": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "Subject": {
+          "type": "string"
+        },
+        "$message": {
+          "type": "string"
+        },
+        "$event_id": {
+          "type": "string"
+        }
+      }
     },
     "person": {
       "type": "object",
