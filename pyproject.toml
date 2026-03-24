@@ -6,20 +6,18 @@ authors = ["Simon Data"]
 license = "Apache License 2.0"
 
 [tool.poetry.dependencies]
-python = "^3.7"
-singer-python = "5.13.0"
-requests = "2.29.0"
-#requests = "2.18.4"
-ipdb = "0.13.13"
-backoff = "1.8.0"
-#tap-kit = { version = "0.1.2", source="artifactory" }
+python = "^3.9"
+singer-python = "6.8.0"
+requests = "2.32.5"
+backoff = "2.2.1"
 
 [[tool.poetry.source]]
 name = "artifactory"
 url = "https://simondata.jfrog.io/artifactory/api/pypi/pypi/simple"
-secondary = true
+priority = "supplemental"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
+ipdb = "0.13.13"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
