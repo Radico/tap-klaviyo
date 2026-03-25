@@ -11,6 +11,16 @@ This tap:
 - Incrementally pulls data based on the input state for incremental endpoints
 - Updates full tables for global exclusions and lists endpoints
 
+## Dependencies
+
+### Development
+
+1. Setup virtual environment: `virtualenv --python=3.9 .venv`
+1. Activate: `source .venv/bin/activate`
+1. Install packages: `poetry install`
+    1. Install poetry with: `curl -sSL https://install.python-poetry.org | python3 -`
+
+
 ## Quick start
 
 1. Install
@@ -18,7 +28,7 @@ This tap:
    ```bash
    > virtualenv -p python3 venv
    > source venv/bin/activate
-   > pip install tap-klaviyo
+   > poetry install
    ```
 
 2. Create the config file
