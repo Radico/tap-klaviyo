@@ -15,7 +15,7 @@ This tap:
 
 ### Development
 
-1. Setup virtual environment: `virtualenv --python=3.7 .venv`
+1. Setup virtual environment: `virtualenv --python=3.9 .venv`
 1. Activate: `source .venv/bin/activate`
 1. Install packages: `poetry install`
     1. Install poetry with: `curl -sSL https://install.python-poetry.org | python3 -`
